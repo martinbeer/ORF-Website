@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+body {
+    display: flex; 
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(82,134,193,255);
+    
+}
+
+.Leiste {
+    flex-direction: row;
+    display: flex;
+    width: 900px;
+    height: 27.5px;
+    background-color: rgba(67,113,163,255);
+    align-content: flex-start;
+    font-size: 15px;
+    margin-left: 120px;
+    font-family: "Source Sans Pro";
+    color: white;
+}
+
+.Fernsehen {
+    flex-direction: row;
+    display: flex;
+    padding: 3px;
+    margin-left: 27.5px;
+    font-style: "Source Sans Pro";
+}
+
+.News {
+    margin-left: 30px;
+    padding: 3px;
+    color: rgba(255, 255, 255, 0.448);
+}
+
+.header {
+    flex-direction: row;
+    display: flex;
+    font-family: "Source Sans Pro";
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.news {
+    color: white;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.news2 {
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+}
+
+.Zwischenleiste {
+    margin-left: -55px;
+    margin-right: -55px;
+}
+
+.Wetter {
+display: flex;
+flex-direction: row;
+color: white;
+font-weight: bold;
+font-size: larger;
+margin-top: 6px;
+}
+
+.Pfeil1 {
+    width: 15px;
+    margin-left: 140px;
+    margin-right: 10px;
+}
+
+.Wolke {
+    margin-bottom: 3px;
+}
+
+.Wetterimg {
+    margin-top: -16px;
+}
+ 
+.ORFTOPOS {
+    margin-left: 140px;
+    margin-top: -10px;
+}
+
+.Werbung {
+    margin-left: 25px;
+    margin-top: -55px;
+}
+
+.INFO {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: white;
+    background-color: rgba(67,113,163,255);
+    width: 900px;
+    height: 35px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.Infopoint {
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.Artikel {
+    margin-right: 395.5px;
+}
+
+.Ukrain {
+    display: flex;
+    flex-direction: row;
+    font-family: "Source Sans Pro";
+    margin-left: 170px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.Ukraine-Krieg {
+    color: rgb(46, 44, 44);
+}
+
+.Text1 {
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.Usland {
+    display: flex;
+    flex-direction: row;
+    font-family: "Source Sans Pro";
+    margin-left: 215px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.Ausland {
+    color: rgb(46, 44, 44);
+}
+
+.Text2 {
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+}
